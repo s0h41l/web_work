@@ -1,0 +1,67 @@
+.top-bar {
+	background-color: black;
+}
+.top-icons {
+	font-size: 25px;
+	color: white;
+	padding-left: 10px;
+}
+.contact {
+	color: white;
+	font-size: 19px;
+	margin-top: 5px;
+}
+
+.navbar-mar {
+	margin-top: 120px;
+}
+
+.navbar-mar ul li a{
+	color: white;
+	font-size: 18px;
+}
+.navbar-mar ul li a:hover{
+	color: black;
+	background-color: white;
+	font-size: 18px;
+}
+.navbar-mar ul {
+	background-color: black;
+	color: white;
+}
+
+@media (max-width: 1200px){
+	.navbar-mar .pull-right {float: none !important}
+}
+.para {
+	margin-top: 30px;
+	color: 
+}
+.para p {
+	font-size: 15px;
+}
+
+.games {
+	background:radial-gradient(circle,white,black);
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+@media (max-width: 600px){
+	.games [class*="col-"]{
+		margin-bottom: 25px;
+	}
+}
+
+
+.footer {
+	background-color: #333333;
+	color: white;
+	margin-top: 0
+
+}
+
+
+.footer ul {list-style-type: none;
+	margin: 0;
+padding: 0}
